@@ -1,0 +1,92 @@
+#cloneCodingM{
+  h2{
+    position: relative;
+    padding: 0.5rem 0;
+    margin: 2.5rem 0 1.5rem;
+    text-align: center;
+    border: 2px solid var(--color-main);
+    border-left: 0;
+    border-right: 0;
+    background-color: rgba(#FEC260,0.1);
+    span{
+      position: absolute;
+      right: 0.5rem;
+      bottom:0.2rem;
+      font-size: 0.5em;
+      opacity: 0.8;
+      animation: scrollRight 0.5s both ease-in alternate infinite;
+    }
+    @keyframes scrollRight {
+      from{
+        right: 0.5rem;
+      }
+      to{
+        right: 0rem;
+      }
+    }
+  }
+  #cloneCardPlaceM{
+    display: flex;
+    column-gap: 2rem;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+    scrollbar-color: rgba(254, 194, 96,0.8) rgba(255,255,255,0.3);
+    scrollbar-width: thin;
+    &::-webkit-scrollbar {
+      height: 5px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba(254, 194, 96,0.8);
+      border-radius: 5px;
+    }
+    &::-webkit-scrollbar-track {
+      background-color: rgba(255,255,255,0.3);
+      border-radius: 5px;
+    }
+    .cloneCard{
+      flex-shrink: 0;
+      width: calc(300px - 2rem);
+      border-radius: 1rem;
+      overflow: hidden;
+      border: 3px solid var(--color-main);
+      background-color: var(--color-main);
+      .imgPlace{
+        width: 100%;
+        height: 30vh;
+        img{
+          width: 100%;
+        }
+      }
+      .contentsWrap{
+        position: relative;
+        padding: 1rem;
+        background-color: var(--color-main);
+        color: var(--color-bg);
+        h3{
+          font-size: 1.3rem;
+          margin-bottom: 0.5rem;
+        }
+        .row > *{
+          line-height: 1;
+          font-size: 0.9rem;
+        }
+        .btnWrap{
+          margin-top: 1rem;
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+        }
+        a{
+          width: 40%;
+          border: 0;
+          background-color: var(--color-bg);
+          color: var(--color-main);
+          border-radius: 0.5rem;
+          line-height:1;
+          padding: 0.5rem 0;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
