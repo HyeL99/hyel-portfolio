@@ -29,6 +29,7 @@ const getStars = () => {
 
 $(window).on('resize',function(){
   getStars();
+  $('.home').animate({scrollTop:0},300);
 })
 
 getStars();
