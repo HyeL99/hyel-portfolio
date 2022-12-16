@@ -64,6 +64,7 @@
     position: absolute;
     border: 0;
     img{
+      cursor: url('../assets/클릭.png'), auto !important;
       width: 100%;
     }
     &:nth-of-type(1){

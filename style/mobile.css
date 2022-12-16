@@ -4,11 +4,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: url("../assets/커서별.png"), auto;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+  cursor: url("../assets/클릭.png"), auto !important;
 }
 
 ul, li {
@@ -28,12 +30,12 @@ input {
   outline: 0;
 }
 
-button {
-  cursor: pointer;
-}
-
 img {
   width: 100%;
+}
+
+button {
+  cursor: url("../assets/클릭.png"), auto !important;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -73,6 +75,14 @@ body {
 }
 .scroll::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera*/
+}
+
+.planetIcon {
+  cursor: url("../assets/클릭.png"), auto !important;
+}
+
+#moonMenu {
+  cursor: url("../assets/클릭.png"), auto !important;
 }
 
 .skybg {
@@ -671,7 +681,7 @@ body {
   text-align: center;
   font-size: 1.3rem;
   line-height: 2rem;
-  cursor: pointer;
+  cursor: url("../assets/클릭.png"), auto !important;
 }
 #mobileHome header #sideMenuM {
   position: absolute;
