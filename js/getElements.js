@@ -59,23 +59,25 @@ const projects = [
   },
   {
     id:'project03',
-    name:'쇼핑몰 사이트',
-    shortname:'쇼핑몰',
-    working:'2022.11.28 - 2022.12.06 (9일)',
+    name:'영화 정보 사이트 - 영화를 콕!',
+    shortname:'영화를 콕!',
+    working:'2022.12.12 - 2022.12.16 (5일)',
     contribution:'개인작업 (100%)',
     tool:'React,Sass',
-    page:'main + sub*2',
-    imgD:'./assets/screenshots/쇼핑몰-D.png',
-    imgM:'./assets/screenshots/쇼핑몰-M.png',
+    page:'main + sub*1',
+    imgD:'./assets/screenshots/영화를콕-D.png',
+    imgM:'./assets/screenshots/영화를콕-M.png',
     contents:`
-      json파일에 저장된 쇼핑목록에 대한 데이터를 받아와서 상품들을 나타낸 사이트입니다.
+      <a href='https://www.themoviedb.org/'>TMDB</a>에서 제공하는 API를 이용하여 영화 정보를 제공하는 페이지를 만들었습니다.
       <br /><br />
-      로그인이 되었을 때에만 상품의 상세페이지를 볼 수 있도록 하였고, 검색 기능을 구현하였습니다.
+      메인페이지에서는 인기순, 평점순, 개봉예정작을 볼 수 있으며, 영화 보스터를 클릭하면 디테일 페이지로 연결됩니다.
       <br /><br />
-      레이아웃과 로그인 폼은 부트스트랩을 이용하였습니다.
+      디테일 페이지에서는 영화에 대한 상세정보와 트레일러 영상을 확인할 수 있으며, 관련 영화도 볼 수 있습니다.
+      <br /><br />
+      레이아웃은 부트스트랩을 이용하였습니다.
     `,
-    git:'https://github.com/HyeL99/ReactShoppingMall',
-    demo:'https://hyel-react-shoppingmall.netlify.app/',
+    git:'https://github.com/HyeL99/ReactMovies',
+    demo:'https://hyel-movies.netlify.app/',
     preview:''
   },
   {
