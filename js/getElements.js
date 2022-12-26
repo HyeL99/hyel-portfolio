@@ -103,7 +103,7 @@ const projects = [
     id:'project05',
     name:'메신저 프로그램(개발중)',
     shortname:'메신저',
-    working:'2022.12.19 - 현재 (1주)',
+    working:'2022.12.19 - 현재',
     contribution:'개인작업 (100%)',
     tool:'REACT,SASS,Firebase',
     page:'main + sub',
