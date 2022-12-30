@@ -21,7 +21,7 @@ const projects = [
     imgD:'./assets/screenshots/메신저-D.png',
     imgM:'./assets/screenshots/메신저-M.png',
     contents:`
-      파이어베이스를 이용하여 실시간 채팅 웹을 만들었습니다.
+      파이어베이스를 이용하여 실시간 채팅 웹앱을 만들고 PWA를 적용시켰습니다.
       <br /><br />
       회원가입 및 로그인 , 친구 추가 등의 기능을 구현하였고,
       <br /><br />
