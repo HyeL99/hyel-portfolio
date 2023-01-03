@@ -88,7 +88,7 @@ const projects = [
     imgD:'./assets/screenshots/나의시간-D.png',
     imgM:'./assets/screenshots/나의시간-M.png',
     contents:`
-      일정 관리에 관련된 정보를 한번에 관리할 수 있는 PWA 하이브리드 웹을 제작했습니다.
+      일정 관리에 관련된 정보를 한번에 관리할 수 있는 프로그레시브 웹앱(PWA)을 제작했습니다.
       <br /><br />
       총 여섯가지의 기능을 구현했습니다.<br />
       - 공휴일과 일정이 포함된 달력 렌더링<br />
